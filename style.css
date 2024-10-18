@@ -122,18 +122,21 @@ section{
 }
 
 .main-container .image{
-    width: 500px;
-    height: 80vh;
-    border-radius: 100%;
-    overflow: hidden;
+    width: 200px; /* Set width for the circular effect */
+    height: 200px; /* Set height for the circular effect */
+    border-radius: 50%; /* Make it circular */
+    overflow: hidden; /* Hide overflow to maintain circular shape */
     box-shadow: 0 0 50px #077b32;
+    display: flex; /* Center the image */
+    justify-content: center; /* Center the image */
+    align-items: center; /* Center the image */
 }
 
 #profile_img
 {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    width: 100%; /* Fill the width of the container */
+    height: 100%; /* Fill the height of the container */
+    object-fit: cover; 
 }
 
 .main-container .image img{
