@@ -129,6 +129,13 @@ section{
     box-shadow: 0 0 50px #077b32;
 }
 
+#profile_img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
 .main-container .image img{
     width: 100%;
 }
